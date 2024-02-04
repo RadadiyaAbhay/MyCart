@@ -558,7 +558,7 @@ let count = document.getElementById('count');
 
 products.forEach(product => {
     showPro.innerHTML += `
-    <div class="col-3 py-2">
+    <div class="col-xl-3 col-sm-12 col-lg-4 col-12 py-2">
     <div class="border border-5  rounded-2" style="height:440px;">
         <div class="d-flex justify-content-center align-items-center border " style="overflow: hidden; height: 160px;">
             <img src="${product.thumbnail}" class="w-100" alt="">
